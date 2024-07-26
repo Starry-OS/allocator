@@ -24,7 +24,7 @@ allocator_api = []
 
 [dependencies]
 buddy_system_allocator = { version = "0.9", default-features = false, optional = true }
-slab_allocator = { git = "https://github.com/Starry-OS/slab_allocator.git", optional = true }
+slab_allocator = { git = "https://github.com/arceos-org/slab_allocator.git", optional = true }
 rlsf = { version = "0.2", optional = true }
 bitmap-allocator = { git = "https://github.com/rcore-os/bitmap-allocator.git", rev = "88e871a", optional = true }
 
